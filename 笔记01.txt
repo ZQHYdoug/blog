@@ -1,0 +1,25 @@
+hexo+githup搭建个人博客
+一、hexo
+1、特点：快速、简洁且高效的博客框架
+2、环境：基于node（v8.11.3）
+   1）环境检测：win+r输入cmd
+             cmd窗口输入node -v回车
+	      如果提示node不是内部或者外部命令
+	      则需安装node
+   2）安装node环境（https://nodejs.org/zh-cn/) 下载8.11.3版本
+二、安装git（版本控制器）
+安装路径：https://git-scm.com/download/win 或百度git官网
+QQ群文件有安装包
+三、安装hexo
+cmd命令：npm install 包名 -g(npm install hexo-cli -g)
+npm：基于node的包管理器，类似于iOS的APP store
+     通过npm可以下载安装需要的插件或者框架
+-g：表示全局安装（在任何目录都可以使用）
+四、初始化一个博客项目
+  ①新建git bash here
+  ②输入 hexo init blog（项目名称）
+  ③切换到项目目录
+   cd项目名
+  ④安装项目依赖包
+  npm install 
+
